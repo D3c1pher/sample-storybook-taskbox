@@ -1,59 +1,57 @@
-yarn run v1.22.22
-$ storybook build --output-dir /tmp/chromatic--19458-Z9OGCECAgwNP
+$ storybook build --output-dir /tmp/chromatic--20840-VS8JBvEfnLVf
 @storybook/cli v7.6.6
 
-info => Cleaning outputDir: /tmp/chromatic--19458-Z9OGCECAgwNP
+info => Cleaning outputDir: /tmp/chromatic--20840-VS8JBvEfnLVf
 info => Loading presets
 info => Building manager..
-info => Manager built (147 ms)
+info => Manager built (131 ms)
 info => Building preview..
-info => Copying static files: /home/dna-user/Documents/NorvenC/sample-storybook/node_modules/@storybook/manager/static at /tmp/chromatic--19458-Z9OGCECAgwNP/sb-common-assets
-info => Copying static files: /home/dna-user/Documents/NorvenC/sample-storybook/public at /tmp/chromatic--19458-Z9OGCECAgwNP/
+info => Copying static files: /home/dna-user/Documents/NorvenC/sample-storybook/node_modules/@storybook/manager/static at /tmp/chromatic--20840-VS8JBvEfnLVf/sb-common-assets
+info => Copying static files: /home/dna-user/Documents/NorvenC/sample-storybook/public at /tmp/chromatic--20840-VS8JBvEfnLVf/
 vite v4.5.1 building for production...
 transforming...
 ✓ 865 modules transformed.
 rendering chunks...
 computing gzip size...
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/iframe.html                                     12.58 kB │ gzip:   3.58 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/percolate-dac75269.ttf                   34.04 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/percolate-ec979d96.woff                  34.11 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/percolate-5ed633c2.eot                   34.21 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/percolate-d13fa91b.svg                  140.51 kB │ gzip:  46.93 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-4f244d89.css                      6.87 kB │ gzip:   2.05 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/_commonjs-dynamic-modules-302442b1.js     0.24 kB │ gzip:   0.19 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/WithTooltip-V3YHNWJZ-8f5198cc.js          0.44 kB │ gzip:   0.27 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/syntaxhighlighter-V7JZZA35-fa81b9b7.js    0.45 kB │ gzip:   0.29 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-d00a4d84.js                       0.51 kB │ gzip:   0.33 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/index-3fd0d1ea.js                         0.58 kB │ gzip:   0.35 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-73104b77.js                       0.64 kB │ gzip:   0.45 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/_commonjsHelpers-de833af9.js              0.69 kB │ gzip:   0.38 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/index-356e4a49.js                         0.77 kB │ gzip:   0.47 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/index-8d47fad6.js                         0.80 kB │ gzip:   0.52 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-0ef86afd.js                       0.86 kB │ gzip:   0.55 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-8a0c4018.js                       1.04 kB │ gzip:   0.68 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/entry-preview-fb6629d6.js                 1.12 kB │ gzip:   0.66 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/index-11d98b33.js                         2.59 kB │ gzip:   1.26 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-30b54f76.js                       3.21 kB │ gzip:   1.37 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/Task.stories-cd71f1f7.js                  3.66 kB │ gzip:   1.54 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/iframe-c86aa35c.js                        4.64 kB │ gzip:   1.67 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-d01b88e8.js                       5.23 kB │ gzip:   2.41 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/index-76fb7be0.js                         7.16 kB │ gzip:   2.91 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-da31036b.js                       7.62 kB │ gzip:   1.55 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-c56bf6ac.js                       8.28 kB │ gzip:   3.17 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/index-da07a199.js                        13.61 kB │ gzip:   5.13 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/Color-6VNJS4EI-4eece8c8.js               17.64 kB │ gzip:   6.81 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/TaskList.stories-7f492355.js             32.47 kB │ gzip:  12.09 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-f93f0a1a.js                      34.19 kB │ gzip:  13.40 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/preview-21802b0a.js                      72.07 kB │ gzip:  24.41 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/_getPrototype-1e53b583.js                78.40 kB │ gzip:  23.54 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/react-18-236157c6.js                    134.55 kB │ gzip:  43.45 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/entry-preview-docs-17bdf6ae.js          212.41 kB │ gzip:  66.48 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/index-69d26cbb.js                       372.82 kB │ gzip: 114.68 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/DocsRenderer-NNNQARDV-840b8fab.js       537.37 kB │ gzip: 175.75 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/InboxScreen.stories-2683ce12.js         562.35 kB │ gzip: 149.28 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/axe-3e344d98.js                         575.65 kB │ gzip: 159.30 kB
-../../../../../tmp/chromatic--19458-Z9OGCECAgwNP/assets/formatter-SWP5E3XI-d9ded160.js          601.64 kB │ gzip: 186.24 kB
-✓ built in 11.80s
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/iframe.html                                     12.58 kB │ gzip:   3.58 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/percolate-dac75269.ttf                   34.04 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/percolate-ec979d96.woff                  34.11 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/percolate-5ed633c2.eot                   34.21 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/percolate-d13fa91b.svg                  140.51 kB │ gzip:  46.93 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-4f244d89.css                      6.87 kB │ gzip:   2.05 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/_commonjs-dynamic-modules-302442b1.js     0.24 kB │ gzip:   0.19 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/WithTooltip-V3YHNWJZ-8f5198cc.js          0.44 kB │ gzip:   0.27 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/syntaxhighlighter-V7JZZA35-fa81b9b7.js    0.45 kB │ gzip:   0.29 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-d00a4d84.js                       0.51 kB │ gzip:   0.33 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/index-3fd0d1ea.js                         0.58 kB │ gzip:   0.35 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-73104b77.js                       0.64 kB │ gzip:   0.45 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/_commonjsHelpers-de833af9.js              0.69 kB │ gzip:   0.38 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/index-356e4a49.js                         0.77 kB │ gzip:   0.47 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/index-8d47fad6.js                         0.80 kB │ gzip:   0.52 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-0ef86afd.js                       0.86 kB │ gzip:   0.55 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-8a0c4018.js                       1.04 kB │ gzip:   0.68 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/entry-preview-fb6629d6.js                 1.12 kB │ gzip:   0.66 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/index-11d98b33.js                         2.59 kB │ gzip:   1.26 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-30b54f76.js                       3.21 kB │ gzip:   1.37 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/Task.stories-cd71f1f7.js                  3.66 kB │ gzip:   1.54 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/iframe-c86aa35c.js                        4.64 kB │ gzip:   1.67 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-d01b88e8.js                       5.23 kB │ gzip:   2.41 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/index-76fb7be0.js                         7.16 kB │ gzip:   2.91 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-da31036b.js                       7.62 kB │ gzip:   1.55 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-c56bf6ac.js                       8.28 kB │ gzip:   3.17 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/index-da07a199.js                        13.61 kB │ gzip:   5.13 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/Color-6VNJS4EI-4eece8c8.js               17.64 kB │ gzip:   6.81 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/TaskList.stories-7f492355.js             32.47 kB │ gzip:  12.09 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-f93f0a1a.js                      34.19 kB │ gzip:  13.40 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/preview-21802b0a.js                      72.07 kB │ gzip:  24.41 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/_getPrototype-1e53b583.js                78.40 kB │ gzip:  23.54 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/react-18-236157c6.js                    134.55 kB │ gzip:  43.45 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/entry-preview-docs-17bdf6ae.js          212.41 kB │ gzip:  66.48 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/index-69d26cbb.js                       372.82 kB │ gzip: 114.68 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/DocsRenderer-NNNQARDV-840b8fab.js       537.37 kB │ gzip: 175.75 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/InboxScreen.stories-2683ce12.js         562.35 kB │ gzip: 149.28 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/axe-3e344d98.js                         575.65 kB │ gzip: 159.30 kB
+../../../../../tmp/chromatic--20840-VS8JBvEfnLVf/assets/formatter-SWP5E3XI-d9ded160.js          601.64 kB │ gzip: 186.24 kB
+✓ built in 11.04s
 info => Preview built (12 s)
-info => Output directory: /tmp/chromatic--19458-Z9OGCECAgwNP
-Done in 14.35s.
+info => Output directory: /tmp/chromatic--20840-VS8JBvEfnLVf
