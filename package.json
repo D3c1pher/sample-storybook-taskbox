@@ -25,6 +25,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
+    "test-storybook": "test-storybook",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/"
   },
@@ -37,6 +38,7 @@
     "@storybook/react": "^7.6.6",
     "@storybook/react-vite": "^7.6.6",
     "@storybook/test": "^7.6.6",
+    "@storybook/test-runner": "^0.17.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
@@ -48,5 +50,8 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
